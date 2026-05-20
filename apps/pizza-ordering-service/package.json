@@ -1,0 +1,10 @@
+{
+  "name": "pizza-ordering-service",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "@repo/api-contracts": "workspace:*"
+  }
+}
