@@ -4,7 +4,12 @@
     "dev": "tsx watch src/server.ts"
   },
   "dependencies": {
+    "@repo/api-contracts": "workspace:*",
+    "bullmq": "^5.78.0",
     "fastify": "^4.28.1",
-    "@repo/api-contracts": "workspace:*"
+    "ioredis": "^5.11.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.3"
   }
 }
